@@ -10,6 +10,7 @@ import {
   listMilestones,
   listQueries,
   listSites,
+  listUsers,
 } from "@/lib/api";
 import { AppShell } from "@/components/vw/AppShell";
 import { EnrolmentChart } from "@/components/vw/EnrolmentChart";
@@ -132,10 +133,14 @@ function StudyPage() {
     queryKey: ["queries", studyId],
     queryFn: () => listQueries(studyId),
   });
+  const usersQuery = useQuery({ queryKey: ["users"], queryFn: listUsers });
 
   const study = studyQuery.data;
   const kpi = kpiQuery.data;
   const openQueries = (queriesQuery.data ?? []).filter((q) => q.status === "open");
+  const piName = study
+    ? (usersQuery.data?.find((u) => u.id === study.pi_id)?.full_name ?? study.pi_id)
+    : "";
 
   return (
     <AppShell
@@ -178,7 +183,7 @@ function StudyPage() {
               <p className="text-[11px] tracking-wide text-muted-foreground uppercase">
                 Principal Investigator
               </p>
-              <p className="mono text-sm text-foreground">{study.pi_id}</p>
+              <p className="mono text-sm text-foreground">{piName}</p>
             </div>
             <div>
               <p className="text-[11px] tracking-wide text-muted-foreground uppercase">

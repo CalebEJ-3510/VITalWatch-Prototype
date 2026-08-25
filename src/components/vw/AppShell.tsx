@@ -4,8 +4,7 @@ import { useQuery } from "@tanstack/react-query";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { Bell, Moon, ShieldOff, Sun, X } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { listAlerts } from "@/lib/api";
-import { STUB_MODE } from "@/lib/api";
+import { listAlerts, STUB_MODE } from "@/lib/api";
 import { SignedIn, useSession, UserButton } from "@/lib/auth";
 import {
   NAV_BY_ROLE,
