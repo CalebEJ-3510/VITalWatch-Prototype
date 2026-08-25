@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
-import video from "@/assets/bg-video.mp4.asset.json";
-import poster from "@/assets/bg-poster.jpg.asset.json";
+
+const videoSrc = `${import.meta.env.BASE_URL}bg-video.mp4`;
+const posterSrc = `${import.meta.env.BASE_URL}bg-poster.jpg`;
 
 /**
  * Full-screen looping background video. Autoplays muted, no controls,
@@ -25,8 +26,8 @@ export function VideoBackdrop({
       )}
     >
       <video
-        src={video.url}
-        poster={poster.url}
+        src={videoSrc}
+        poster={posterSrc}
         autoPlay
         muted
         loop
