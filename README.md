@@ -10,8 +10,7 @@ _Smart India Hackathon 2024 — Problem Statement 46_
 _All India Institute of Ayurveda (AIIA) · National Pharmacovigilance Coordination Centre (NPvCC)_
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-calebej--3510.github.io-4f8ef7?style=for-the-badge)](https://calebej-3510.github.io/VITalWatch-Prototype/)
-[![Deploy Status](https://img.shields.io/github/actions/workflow/status/CalebEJ-3510/VITalWatch-Prototype/deploy.yml?style=for-the-badge&label=Deploy&logo=github-actions)](https://github.com/CalebEJ-3510/VITalWatch-Prototype/actions)
-[![Ishan Ray](https://img.shields.io/badge/IshanRayC-GitHub-%23dc2626?style=flat-square&logo=github&logoColor=white)](https://github.com/IshanRayC)
+[![GitHub](https://img.shields.io/badge/GitHub-IshanRayC-ff4d4d?style=for-the-badge&logo=github&logoColor=black)](https://github.com/IshanRayC)[![Deploy Status](https://img.shields.io/github/actions/workflow/status/CalebEJ-3510/VITalWatch-Prototype/deploy.yml?style=for-the-badge&label=Deploy&logo=github-actions)](https://github.com/CalebEJ-3510/VITalWatch-Prototype/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 [![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=flat-square&logo=vite)](https://vitejs.dev/)
