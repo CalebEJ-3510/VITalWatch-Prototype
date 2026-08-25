@@ -247,7 +247,7 @@ Built for **Smart India Hackathon 2024** by:
 
 | Member | GitHub |
 | --- | --- |
-| **Ishan Ray Chaudhuri(LEAD)** | [@IshanRayC](https://github.com/IshanRayC) |
+| **Ishan Ray Chaudhuri (LEAD)** | [@IshanRayC](https://github.com/IshanRayC) |
 | **Caleb Elisha Joseph** | [GitHub Username](https://github.com/USERNAME) |
 | **Roxy** | [GitHub Username](https://github.com/USERNAME) |
 | **Sreeja Kotra Reddy** | [GitHub Username](https://github.com/USERNAME) |
