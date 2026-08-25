@@ -244,11 +244,11 @@ Built for **Smart India Hackathon 2024** by:
 
 | Member | GitHub |
 | --- | --- |
+| **Ishan Ray Chaudhuri(LEAD)** | [@IshanRayC](https://github.com/IshanRayC) |
 | **Caleb Elisha Joseph** | [GitHub Username](https://github.com/USERNAME) |
+| **Roxy** | [GitHub Username](https://github.com/USERNAME) |
 | **Sreeja Kotra Reddy** | [GitHub Username](https://github.com/USERNAME) |
 | **Kavin K** | [GitHub Username](https://github.com/USERNAME) |
-| **Roxy** | [GitHub Username](https://github.com/USERNAME) |
-| **Ishan Ray Chaudhuri** | [@IshanRayC](https://github.com/IshanRayC) |
 | **Rakshitha S** | [GitHub Username](https://github.com/USERNAME) |
 
 ---
