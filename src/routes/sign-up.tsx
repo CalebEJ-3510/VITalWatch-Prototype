@@ -64,8 +64,8 @@ function SignUpPage() {
             study you work on.
           </li>
           <li className="rounded-xl border border-foreground/10 bg-foreground/[0.03] px-3 py-2.5">
-            2. The administrator creates the account and assigns your clinical role — PI, Coordinator,
-            Monitor, Ethics Committee, PV Officer, or Regulator.
+            2. The administrator creates the account and assigns your clinical role — PI,
+            Coordinator, Monitor, Ethics Committee, PV Officer, or Regulator.
           </li>
           <li className="rounded-xl border border-foreground/10 bg-foreground/[0.03] px-3 py-2.5">
             3. Sign in — you land directly on the screen for your role.

@@ -47,23 +47,25 @@ The system covers the full trial lifecycle: from EC approval and CTRI registrati
 
 ### 🏛️ Role-Based Access Control — 7 Roles
 
-| Role | Scope | Default Landing |
-|---|---|---|
-| Principal Investigator | Own studies | Portfolio |
-| Study Coordinator | Own sites | Portfolio |
-| Clinical Monitor | Assigned studies | Portfolio |
-| Ethics Committee | All studies | Portfolio |
-| Pharmacovigilance Officer | All studies | Pharmacovigilance |
-| Administrator | Full access + role switcher | Portfolio |
-| Regulator | All studies — **read-only** | Audit Trail |
+| Role                      | Scope                       | Default Landing   |
+| ------------------------- | --------------------------- | ----------------- |
+| Principal Investigator    | Own studies                 | Portfolio         |
+| Study Coordinator         | Own sites                   | Portfolio         |
+| Clinical Monitor          | Assigned studies            | Portfolio         |
+| Ethics Committee          | All studies                 | Portfolio         |
+| Pharmacovigilance Officer | All studies                 | Pharmacovigilance |
+| Administrator             | Full access + role switcher | Portfolio         |
+| Regulator                 | All studies — **read-only** | Audit Trail       |
 
 ### 📊 Portfolio Dashboard
+
 - Live KPI tiles: active studies, enrolled vs target, sites activated, open queries, overdue monitoring visits, open SAEs
 - Per-study enrolment vs plan curves (Recharts — actual / expected / target)
 - Severity-ranked alert sidebar, auto-refreshing every 30 seconds
 - Sortable study grid with inline status, enrolment %, and SAE counts per study
 
 ### 🔬 Study Drill-Down
+
 - Study header: protocol number, CTRI registration status, EC approval window, PI name
 - Enrolment curve chart vs plan
 - Milestone timeline (EC approval → database lock → close-out) with colour-coded status nodes
@@ -72,12 +74,14 @@ The system covers the full trial lifecycle: from EC approval and CTRI registrati
 - Open data queries with age-based colour coding (green / amber / red)
 
 ### 🚨 Alerts & Notifications
+
 - Full alert log: enrolment lag, ethics renewals, CTRI updates, overdue monitoring visits, SAE timeline breaches
 - Filter by severity (critical / warning / info) and rule type
 - Per-alert acknowledgement with automatic audit trail write
 - Live notification bell in top nav with unread badge counter
 
 ### 💊 Pharmacovigilance — AE Intake
+
 - AE intake form: study / site / subject / onset / narrative / severity / causality / outcome / suspect drug
 - Narrative-driven **semantic coding suggestions** with 400ms debounce — provenance always labelled
 - SAE checkbox starts live **24-hour** and **14-day** regulatory countdown clocks
@@ -85,12 +89,14 @@ The system covers the full trial lifecycle: from EC approval and CTRI registrati
 - **DSMB signals tab**: AEs aggregated by coded MedDRA-style term, ranked by frequency for committee review
 
 ### 🔐 Audit Trail
+
 - Append-only, hash-chained record of every action: create, update, acknowledge, export, login, access-denied
 - Before/after diff viewer per event
 - **One-click chain verification** — walks the entire hash chain, reports the exact sequence number where any break occurs
 - Filterable by actor ID, role, and date range
 
 ### 🌙 UX & Design
+
 - Dark mode by default with one-click light mode toggle (persisted in `localStorage`)
 - Glassmorphism design with animated video backdrop on all auth pages and the portfolio shell
 - Smooth page transitions and micro-animations (Motion)
@@ -158,18 +164,18 @@ All API calls are centralized in `lib/api.ts`. No component ever calls `fetch` d
 
 ## 🛠️ Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Build tool | Vite 8 + Rolldown |
-| Framework | React 19 |
-| Language | TypeScript 5 |
-| Routing | TanStack Router v1 (file-based) |
-| Data fetching | TanStack Query v5 |
-| Styling | Tailwind CSS v4 |
-| Animation | Motion v13 (formerly Framer Motion) |
-| Charts | Recharts v2 |
-| Icons | Lucide React |
-| Deployment | GitHub Pages via GitHub Actions |
+| Layer         | Technology                          |
+| ------------- | ----------------------------------- |
+| Build tool    | Vite 8 + Rolldown                   |
+| Framework     | React 19                            |
+| Language      | TypeScript 5                        |
+| Routing       | TanStack Router v1 (file-based)     |
+| Data fetching | TanStack Query v5                   |
+| Styling       | Tailwind CSS v4                     |
+| Animation     | Motion v13 (formerly Framer Motion) |
+| Charts        | Recharts v2                         |
+| Icons         | Lucide React                        |
+| Deployment    | GitHub Pages via GitHub Actions     |
 
 ---
 
@@ -218,15 +224,15 @@ The workflow builds with `VITE_STUB_MODE=true` so it works out of the box — no
 
 On the login page, pick any persona from the list:
 
-| Name | Role | Landing |
-|---|---|---|
-| Dr. Arjun Mehta | Principal Investigator | Portfolio |
-| Priya Sharma | Study Coordinator | Portfolio |
-| Ravi Kumar | Clinical Monitor | Portfolio |
-| Dr. Ananya Iyer | Ethics Committee | Portfolio |
-| Suhana Patel | Pharmacovigilance Officer | Pharmacovigilance |
-| Admin | Administrator | Portfolio |
-| Regulatory Observer | Regulator (read-only) | Audit Trail |
+| Name                | Role                      | Landing           |
+| ------------------- | ------------------------- | ----------------- |
+| Dr. Arjun Mehta     | Principal Investigator    | Portfolio         |
+| Priya Sharma        | Study Coordinator         | Portfolio         |
+| Ravi Kumar          | Clinical Monitor          | Portfolio         |
+| Dr. Ananya Iyer     | Ethics Committee          | Portfolio         |
+| Suhana Patel        | Pharmacovigilance Officer | Pharmacovigilance |
+| Admin               | Administrator             | Portfolio         |
+| Regulatory Observer | Regulator (read-only)     | Audit Trail       |
 
 > 💡 Sign in as **Administrator** to access the **"View as"** role switcher in the top nav — preview any role's perspective instantly without signing out.
 
@@ -236,14 +242,14 @@ On the login page, pick any persona from the list:
 
 Built for **Smart India Hackathon 2024** by:
 
-| Member |
-|---|
+| Member                  |
+| ----------------------- |
 | **Caleb Elisha Joseph** |
-| **Sreeja Kotra Reddy** |
-| **Kavin K** |
-| **Roxy** |
-| **Ishan** |
-| **Rakshitha S** |
+| **Sreeja Kotra Reddy**  |
+| **Kavin K**             |
+| **Roxy**                |
+| **Ishan**               |
+| **Rakshitha S**         |
 
 ---
 
