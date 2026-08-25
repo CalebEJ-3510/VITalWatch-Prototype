@@ -242,19 +242,14 @@ On the login page, pick any persona from the list:
 
 Built for **Smart India Hackathon 2024** by:
 
-| Member                  |
-| ----------------------- |
-| **Caleb Elisha Joseph** |
-| **Sreeja Kotra Reddy**  |
-| **Kavin K**             |
-| **Roxy**                |
-| **Ishan Ray CHaudhuri**  <p>
-  <a href="https://github.com/IshanRayC">
-    <img src="https://img.icons8.com/ios-filled/30/ffffff/github.png" width="24" />
-  </a>
-  <a href="https://github.com/IshanRayC">IshanRayC</a>
-</p>|
-| **Rakshitha S**         |
+| Member | GitHub |
+| --- | --- |
+| **Caleb Elisha Joseph** | [GitHub Username](https://github.com/USERNAME) |
+| **Sreeja Kotra Reddy** | [GitHub Username](https://github.com/USERNAME) |
+| **Kavin K** | [GitHub Username](https://github.com/USERNAME) |
+| **Roxy** | [GitHub Username](https://github.com/USERNAME) |
+| **Ishan Ray Chaudhuri** | [@IshanRayC](https://github.com/IshanRayC) |
+| **Rakshitha S** | [GitHub Username](https://github.com/USERNAME) |
 
 ---
 
