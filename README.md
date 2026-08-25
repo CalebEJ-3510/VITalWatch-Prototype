@@ -248,7 +248,12 @@ Built for **Smart India Hackathon 2024** by:
 | **Sreeja Kotra Reddy**  |
 | **Kavin K**             |
 | **Roxy**                |
-| **Ishan**               |
+| **Ishan Ray CHaudhuri**  <p>
+  <a href="https://github.com/IshanRayC">
+    <img src="https://img.icons8.com/ios-filled/30/ffffff/github.png" width="24" />
+  </a>
+  <a href="https://github.com/IshanRayC">IshanRayC</a>
+</p>|
 | **Rakshitha S**         |
 
 ---
