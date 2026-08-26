@@ -32,7 +32,7 @@ _All India Institute of Ayurveda (AIIA) · National Pharmacovigilance Coordinati
 
 ## 🔗 Live Site
 
-**[https://calebej-3510.github.io/VITalWatch-Prototype/](https://vitalwatch-prototype.netlify.app/)**
+**[https://vitalwatch-prototype.netlify.app/](https://vitalwatch-prototype.netlify.app/)**
 
 Sign in with any demo account on the login page — no credentials required. Select a role and explore the full system.
 
